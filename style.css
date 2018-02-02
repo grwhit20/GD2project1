@@ -2,13 +2,9 @@ body {
   font-family: serif;
 }
 
-h1,h2,h3,h5 {
-
-}
-
 header {
   margin-left: 25%;
-  padding: 15vh 15vh 70vh 0px;
+  padding: 15vh 40vh 70vh 0px;
 }
 
 
@@ -43,6 +39,9 @@ h3 {
 .publishing {
   float: right;
   font-size: 12px;
+  display: inline-block;
+  text-decoration: none;
+
 }
 .author {
   font-weight: lighter;
@@ -68,11 +67,12 @@ h4 {
   text-trans
 }
 
-table h6 h4 {
+table h6 {
   margin: 10px;
 }
 
 table h4 {
+  margin: 10px;
   text-align: left;
   text-transform: none;
 }
